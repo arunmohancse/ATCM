@@ -29,12 +29,12 @@ input,select,textarea {font-family:Arial, Helvetica, sans-serif;font-size:1em;ve
 textarea {overflow:auto}
 /* GLOBAL */
 html {min-width:1088px}
-body {background:url(../images/body-bg.png) repeat-x #1d1d1d;font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1em;color:#000}
-header {position:relative;height:200px;background:url(../images/bg.jpg) repeat-x}
-/* header>h1 */
-header h1 {position:absolute;left:612px;top:130px}
-header h1 a {font:60px/1.2em Arial, Helvetica, sans-serif;color:#414141;text-decoration:none}
+body {font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1em;color:#000}
+header {position:relative;height:100px;background-color: #F90;text-align:center;}
+
 /* footer */
-footer {text-align:center;height:129px;overflow:hidden;background:url(../images/footer-bg.png) repeat-x;position:relative;z-index:1}
-footer span {font:12px/20px Arial, Helvetica, sans-serif;color:#fff;padding-top:37px;display:block}
-footer span a {color:#176300}
+footer {text-align:center;height:70px;overflow:hidden;background-color: #FFF4C8;position:relative;z-index:1}
+footer span {color: #111;font:12px/20px Arial, Helvetica, sans-serif;padding-top:37px;display:block}
+footer span a {color:#333}
+/*section*/
+section {padding: 15px;min-height: 450px;}
