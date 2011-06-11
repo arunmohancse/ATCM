@@ -6,9 +6,9 @@
 </head>
 <body>
   <div align="center"> 
-      <div class="login-form">
-         <h1>Your requested page is not exist</h1>
-         <h2><?php echo $this->message ?></h2>
+      <div class="error-page-box">
+         <span style="">Your requested page does not exist</span><br><br>
+         <span><?php echo $this->message ?></span>
       </div>
   </div>
   <?php if (isset($this->exception)): ?>
