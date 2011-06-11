@@ -1,0 +1,29 @@
+/* 
+    Document   : main
+    Created on : 11 Jun, 2011, 9:29:58 AM
+    Author     : Arunmohan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,details,figcaption,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,summary,time {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, output, section, summary {display:block}
+meter,progress,mark, time {display:inline}
+ol, ul {list-style:none}
+blockquote,q {quotes:none}
+html,body {height:100%}
+img {border:0;vertical-align:top;text-align:left}
+object {vertical-align:top;outline:none}
+ul,ol {list-style:none}
+table,table td {padding:0;border:none;border-collapse:collapse}
+input,select,textarea {font-family:Arial, Helvetica, sans-serif;font-size:1em;vertical-align:middle;font-weight:normal;margin:0;padding:0}
+textarea {overflow:auto}
+
