@@ -30,13 +30,13 @@ textarea {overflow:auto}
 /* GLOBAL */
 html {min-width:1088px}
 body {font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1em;color:#000}
-header {position:relative;height:100px;background-color: #F90;text-align:center;padding: 10px;}
+header {position:relative;height:60px;background-color: #1D47E0;text-align:center;padding: 10px;}
 
 /* footer */
-footer {text-align:center;height:70px;overflow:hidden;background-color: #FFF4C8;position:relative;z-index:1}
-footer span {color: #111;font:12px/20px Arial, Helvetica, sans-serif;padding-top:37px;display:block}
+footer {text-align:center;height:50px;overflow:hidden;background-color: #486A9E;position:relative;}
+footer span {color: #111;font:12px/20px Arial, Helvetica, sans-serif;padding-top: 15px;display:block}
 footer span a {color:#333}
 /*section*/
 section {padding: 15px;min-height: 450px;}
-.login-form{border: aqua thick double;min-width: 400px;width: 400px;} 
-.error-page-box{min-width: 600px;padding: 10px;color:#DB7493;font-size:32px;} 
+.login-form{border: #52C6D8 thick double;min-width: 400px;width: 400px;} 
+.error-page-box{min-width: 600px;padding: 10px;color:#A84ADB;font-size:32px;} 
