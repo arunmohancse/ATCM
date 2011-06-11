@@ -14,6 +14,7 @@
 root { 
     display: block;
 }
+/*RESET css*/
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,details,figcaption,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,summary,time {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, output, section, summary {display:block}
 meter,progress,mark, time {display:inline}
@@ -26,4 +27,7 @@ ul,ol {list-style:none}
 table,table td {padding:0;border:none;border-collapse:collapse}
 input,select,textarea {font-family:Arial, Helvetica, sans-serif;font-size:1em;vertical-align:middle;font-weight:normal;margin:0;padding:0}
 textarea {overflow:auto}
+/* GLOBAL */
+html {min-width:1088px}
+body {background:url(../images/body-bg.png) repeat-x #1d1d1d;font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1em;color:#000}
 
