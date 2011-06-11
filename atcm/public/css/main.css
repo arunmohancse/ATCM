@@ -38,4 +38,4 @@ footer span {color: #111;font:12px/20px Arial, Helvetica, sans-serif;padding-top
 footer span a {color:#333}
 /*section*/
 section {padding: 15px;min-height: 450px;}
-#login-form{border: aqua thick double;min-width: 400px;width: 400px;}
+.login-form{border: aqua thick double;min-width: 400px;width: 400px;}
