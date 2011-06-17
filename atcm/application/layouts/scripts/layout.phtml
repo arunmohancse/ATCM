@@ -5,16 +5,23 @@
         <link href="/css/main.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <header>
-            <h1 style="color:#FFFFFF;font-size:40px;">ATC management </h1>
-        </header> 
+        <header style="color:#FFFFFF;">
+            <div align="right" style="position:absolute;right: 100px;">
+              <?php if(Zend_Auth::getInstance()->hasIdentity())
+                    { ?>
+                         <a href="/index/logout" style="text-decoration: none;text-align: left;color:#FFFFFF;">Logout</a>
+              <?php } ?>
+                 </div>
+            <br \>
+            <h1 style="font-size:40px;">ATC management </h1>
+            <br \>
+                
+         </header>
         <section>
-            
                 <?php echo $this->layout()->content; ?>
-            
         </section>    
         <footer>
-            <span>© 2011 Company name Inc. All rights reserved</span>
+            <span>&copy; 2011 Company name Inc&trade;. All rights reserved</span>
         </footer>   
     </body>
 </html>    

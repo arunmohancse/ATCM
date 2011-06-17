@@ -24,7 +24,7 @@ class Application_Form_Login extends Zend_Form
             'filters'    => array('StringTrim'),
             'validators' => array(
                 'Alnum',
-                array('StringLength', false, array(6, 20)),
+                array('StringLength', false, array(4, 20)),
             ),
             'required'   => true,
             'label'      => 'password:',
